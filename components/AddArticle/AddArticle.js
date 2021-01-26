@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import "./AddArticle.css";
-import {ArticleContext} from '../context/articleContext'
+import {ArticleContext} from '../../context/articleContext'
 
 const AddArticle = () => {
   // const { saveArticles } = useContext(ArticleContext)

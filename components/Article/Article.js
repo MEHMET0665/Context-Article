@@ -1,11 +1,12 @@
 import React from "react";
 import "./Article.css";
 
-const article = () => {
+
+const article = (props) => {
   return(
   <div className="article">
-   <h1>{this.props.article.title}</h1> 
-   <p>{this.props.article.body}</p> 
+   <h1>{props.article.title}</h1> 
+   <p>{props.article.body}</p> 
   </div>)
 };
 

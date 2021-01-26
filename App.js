@@ -5,13 +5,13 @@ import ArticleProvider from "./context/articleContext";
 
 function App() {
   return (
-    <div>
+    
       <ArticleProvider> 
        <AddArticle />
        <Articles />
       </ArticleProvider>
       
-    </div>
+  
   )
 }
 export default App
